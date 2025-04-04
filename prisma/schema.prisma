@@ -1,0 +1,16 @@
+model User {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  name      String
+  role      String
+  courses   Course[] @relation("UserCourses")
+}
+
+model Course {
+  id          String   @id @default(cuid())
+  title       String
+  description String
+  facultyId   String
+  faculty     User     @relation(fields: [facultyId], references: [id])
+  students    User[]   @relation("UserCourses")
+}
