@@ -4,7 +4,7 @@ A comprehensive online learning platform that connects teachers and students. Te
 
 Built with:
 
-TypeScript | JavaScript | React.js | Node.js | Express.js | Docker | Clean Architecture | MongoDB | Redis
+TypeScript | JavaScript | React.js | Node.js | Express.js | Docker | Clean Architecture | MongoDB
 
 ⚙️ Installation
 
@@ -17,9 +17,11 @@ npm install
 cd ../server
 npm install
 Set up environment variables:
+Rename .env.example to .env in the server directory and provide the necessary values:
 
 PORT
 MONGODB_URI
+🚀 Usage
 
 Start Development Servers:
 Server Side
@@ -43,7 +45,6 @@ npm start
 Node.js + Express.js
 MongoDB + Mongoose
 TypeScript
-Redis for caching
 🎨 Frontend:
 React
 Redux (State Management)
@@ -70,5 +71,4 @@ Formik – Form state management in React
 
 Clean Architecture – Separation of concerns and scalable code structure
 JWT Authentication – Secure login with role-based access
-Redis Caching – Speed optimization for data retrieval
 Containerization – Docker-ready setup for deployment
