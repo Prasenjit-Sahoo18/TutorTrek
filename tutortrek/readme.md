@@ -9,7 +9,7 @@ TypeScript | JavaScript | React.js | Node.js | Express.js | Docker | Clean Archi
 ⚙️ Installation
 
 Clone the Repository:
-git clone https://github.com/abinth11/TutorTrek.git
+git clone 
 cd TutorTrek
 Navigate to client and server directories:
 cd client
